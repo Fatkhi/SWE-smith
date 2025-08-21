@@ -48,7 +48,7 @@ with open(f"logs/experiments/{subset_name}.json", "w") as f:
 ln -s path/to/SWE-smith/agent/ .
 ```
 
-3. In SWE-agent, run exeprt trajectory generation:
+3. In SWE-agent, run expert trajectory generation:
 ```bash
 ./agent/_gen_trajs.sh
 ```
